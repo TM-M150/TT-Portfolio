@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('static/font/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf') format('truetype'),
+  url('static/font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
