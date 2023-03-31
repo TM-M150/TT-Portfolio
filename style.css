@@ -1,9 +1,113 @@
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('static/font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype'),
-  url('static/font/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf') format('truetype');
+  src:  url('static/font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype'),
+        url('static/font/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
-body {
+* {
+  padding: 0;
+  margin: 0;
   font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
 }
+
+.Hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../static/images/DaenerysTargaryen.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.Logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: #F9004D;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: #F9004D;
+  transition: .4s;
+}
+
+.Button {
+  background-color: #F9004D;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+
+.Button:hover {
+  transform: scale(1.2);
+}
+
+.Content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%)
+}
+
+h1 {
+  color: white;
+  margin: 20px 0 20px;
+  font-size: 75px;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  color: #FCFC;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.Newsletter form {
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+
+.Newletter form input:first-child {
+  display: inline block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #F9004D;
+  outline: none;
+  border-radius: 30px;
+}
+
