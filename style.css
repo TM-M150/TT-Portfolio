@@ -12,13 +12,13 @@
 }
 
 .Villian {
-  background-color: #191919;
+  background-color: #FFFAFA;
 }
 
 .Hero {
   height: 100vh;
   width: 100%;
-  background-image: url(../static/images/DaenerysTargaryen.jpg);
+  background-image: url(../static/images/BackgroundImage.webp);
   background-size: cover;
   background-position: center;
 }
@@ -33,7 +33,7 @@ nav {
 }
 
 .Logo {
-  color: white;
+  color: #191919;
   font-size: 35px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -50,7 +50,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #191919;
   text-decoration: none;
   font-weight: bold;
   text-transform: capitalize;
@@ -63,7 +63,7 @@ nav ul li a:hover {
 
 .Button {
   background-color: #F9004D;
-  color: white;
+  color: #191919;
   text-decoration: none;
   border: 2px solid transparent;
   padding: 10px 25px;
@@ -75,6 +75,10 @@ nav ul li a:hover {
   transform: scale(1.2);
 }
 
+#Clock {
+  background-color: #191919;
+}
+
 .Content {
   position: absolute;
   top: 50%;
@@ -83,19 +87,26 @@ nav ul li a:hover {
 }
 
 h1 {
-  color: white;
+  color: #191919;
   margin: 20px 0 20px;
   font-size: 75px;
 }
 
+.Contact-Heading {
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 h3 {
-  color: white;
+  color: #191919;
   font-size: 25px;
   margin-bottom: 50px;
 }
 
 h4 {
-  color: #FCFC;
+  color: #F9004D;
   letter-spacing: 2px;
   font-size: 20px;
 }
@@ -123,16 +134,16 @@ h4 {
   padding: 10px 30px;
   border-radius: 30px;
   background-color: #F9004D;
-  color: white;
+  color: #191919;
   box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
   top: 6px;
   right: 6px;
 }
 
-.About {
+.About, .Contact {
   width: 100%;
   padding: 100px 0;
-  background-color: #191919;
+  background-color: #FFFAFA;
 }
 
 .About img {
@@ -153,23 +164,35 @@ h4 {
   justify-content: space-around;
 }
 
+#Main {
+  border: solid 3px #191919;
+  max-width: 1000px;
+  margin: 60px auto;
+  position: relative;
+}
+
+#Contact-Form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
 .About-Text h2 {
-  color: white;
+  color: #191919;
   font-size: 75px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
 
 .About-Text h5 {
-  color: white;
+  color: #191919;
   letter-spacing: 2px;
   font-size: 22px;
   margin-bottom: 25px;
   text-transform: capitalize;
 }
 
-.About-Text p {
-  color: #FCFC;
+.About-Text p, .Paragraph {
+  color: #F9004D;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
@@ -178,7 +201,7 @@ h4 {
 
 .Button_1 {
   background-color: #F9004D;
-  color: white;
+  color: #191919;
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
@@ -191,4 +214,131 @@ h4 {
   background-color: transparent;
   border: 2px solid #F9004D;
   cursor: pointer;
+}
+
+.Contact .underline {
+  border-bottom: solid 2px #191919;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.Contact .Email {
+	float: right;
+	width: 45%;
+}
+
+.Contact input[type='text'], [type='email'], [type='tel'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #191919;
+	color: #191919;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.Contact input[type='text']:focus, [type='email']:focus, [type='tel']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.Contact .Message {
+	float: none;
+}
+
+.Contact .Name {
+	float: left;
+	width: 45%;
+}
+
+.Contact select {
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.Contact select::-ms-expand {
+  display: none;
+}
+
+.Contact .Subject {
+  width: 100%;
+}
+
+.Contact .Phone {
+  width: 100%;
+}
+
+.Contact textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+.Contact::-webkit-input-placeholder {
+	color: #FFFAFA;
+}
+
+.Contact:-moz-placeholder {
+	color: #FFFAFA;
+	opacity: 1;
+}
+
+.Contact::-moz-placeholder {
+	color: #FFFAFA;
+	opacity: 1;
+}
+
+.Contact:-ms-input-placeholder {
+	color: #FFFAFA;
+}
+
+@media screen and (max-width: 768px) {
+  #Main {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Contact h1 {
+    font-size: 26px;
+  }
+
+  .Contact .underline {
+    width: 68px;
+  }
+
+  .Contact .Button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .Contact h1 {
+    font-size: 18px;
+  }
+
+  .Contact .underline {
+    width: 53px;
+  }
+
+  .Contact input[type='text'], [type='email'], [type='tel'], select, textarea {
+    font-size: 0.875em;
+  }
 }

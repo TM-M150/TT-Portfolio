@@ -6,7 +6,7 @@
     <meta name="Description" content="Welcome to my portfolio! This is a collection of my projects that showcase my skills and experience in web development. My projects include responsive websites, web forms, multimedia elements, and more. Take a look and feel free to reach out if you have any questions or would like to collaborate." />
     <link rel="stylesheet" type="text/css" href="../style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio Website</title>
+    <title>Resume</title>
   </head>
   <body>
 
@@ -17,10 +17,10 @@
         <ul>
           <li><a  href="../index.html">Home</a></li>
           <li><a  href="#">Resume</a></li>
-          <li><a  href="#">Education</a></li>
-          <li><a  href="#">Contact</a></li>
+          <li><a  href="education.html">Education</a></li>
+          <li><a  href="contact.html">Contact</a></li>
         </ul>
-        <a href="#" class="Button">Let's Start</a>
+        <a href="#" class="Button"><time id="datetime"></time></a>
       </nav>
     </div>
 
@@ -28,56 +28,51 @@
     <section class="About">
       <div class="Main">
         <div class="About-Text">
-          <h2>Details</h2>
-          <h5>Name: <span>Daenerys Targaryen</span></h5>
-          <h5>Email: <span>Daenerys@Targaryen.com</span></h5>
-          <h5>Phone: <span>5555 5555</span></h5>
+          <h2>Resume</h2>
+          <video controls>
+            <source src="../static/vids/video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
           <h2>Objective</h2>
           <p>
             To leverage my skills and expertise as a web developer and designer to create innovative and effective web solutions for clients in various industries.
           </p>
           <h2>Skills</h2>
-          <p>
             <ul>
-              <li>Proficient in HTML5, CSS3, JavaScript, jQuery, Bootstrap, and other front-end frameworks and tools.</li>
-              <li>Experience with back-end development using PHP, Python, and MySQL.</li>
-              <li>Strong understanding of responsive design, web accessibility, and user experience (UX) principles.</li>
-              <li>Knowledge of search engine optimization (SEO) and web analytics.</li>
-              <li>Excellent problem-solving, communication, and teamwork skills.</li>
+              <li><p>Proficient in HTML5, CSS3, JavaScript, jQuery, Bootstrap, and other front-end frameworks and tools.</p></li>
+              <li><p>Experience with back-end development using PHP, Python, and MySQL.</p></li>
+              <li><p>Strong understanding of responsive design, web accessibility, and user experience (UX) principles.</p></li>
+              <li><p>Knowledge of search engine optimization (SEO) and web analytics.</p></li>
+              <li><p>Excellent problem-solving, communication, and teamwork skills.</p></li>
             </ul>
-          </p>
           <h2>Proffesional Experience</h2>
-          <h5>Web Developer and Designer <span>Kings Landing</span></h5>
-          <p>
+          <h5>Web Developer and Designer, <span>Kings Landing</span></h5>
             <ul>
-              <li>Designed and developed responsive websites using HTML, CSS, and JavaScript.</li>
-              <li>Created custom WordPress themes and plugins to meet clients' specific needs.</li>
-              <li>Optimized website performance and load times through minification, caching, and other techniques.</li>
-              <li>Conducted website audits and provided recommendations for improving SEO and UX.</li>
-              <li>Collaborated with designers, project managers, and other developers to deliver high-quality projects on time and within budget.</li>
+              <li><p>Designed and developed responsive websites using HTML, CSS, and JavaScript.</p></li>
+              <li><p>Created custom WordPress themes and plugins to meet clients' specific needs.</p></li>
+              <li><p>Optimized website performance and load times through minification, caching, and other techniques.</p></li>
+              <li><p>Conducted website audits and provided recommendations for improving SEO and UX.</p></li>
+              <li><p>Collaborated with designers, project managers, and other developers to deliver high-quality projects on time and within budget.</p></li>
             </ul>
-          </p>
           <h5>Freelance Web Developer</h5>
-          <p>
             <ul>
-              <li>Worked with clients in various industries to create websites, web applications, and mobile apps.</li>
-              <li>Designed user interfaces and wireframes using Adobe XD, Figma, and other tools.</li>
-              <li>Developed and maintained custom WordPress sites and e-commerce platforms.</li>
-              <li>Provided ongoing support and maintenance for clients' web properties.</li>
+              <li><p>Worked with clients in various industries to create websites, web applications, and mobile apps.</p></li>
+              <li><p>Designed user interfaces and wireframes using Adobe XD, Figma, and other tools.</p></li>
+              <li><p>Developed and maintained custom WordPress sites and e-commerce platforms.</p></li>
+              <li><p>Provided ongoing support and maintenance for clients' web properties.</p></li>
             </ul>
-          </p>
           <h2>Certifications</h2>
-          <p>
             <ul>
-              <li>Google Analytics Individual Qualification (IQ)</li>
-              <li>Google Ads Search Certification</li>
+              <li><p>Google Analytics Individual Qualification (IQ)</p></li>
+              <li><p>Google Ads Search Certification</p></li>
             </ul>
-          </p>
           <h2>References</h2>
           <h5>Available upon request.</h5>
           <button class="Button_1">Let's Talk</button>
         </div>
       </div>
     </section>
+    <script src="../datetime.js"></script>
+    <script>showDateTime();</script>
   </body>
 </html>
